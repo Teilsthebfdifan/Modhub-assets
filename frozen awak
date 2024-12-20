@@ -1,0 +1,16 @@
+local function getGitSoundId(GithubSoundPath: string, AssetName: string): Sound
+    local Url = GithubSoundPath
+
+    if not isfile(AssetName..".mp3") then 
+        writefile(AssetName..".mp3", game:HttpGet(Url)) 
+    end
+
+    local Sound = Instance.new("Sound")
+    Sound.SoundId = getcustomasset(AssetName..".mp3", true)
+    return Sound 
+end
+
+local FrozenAwakening = getGitSoundId("https://raw.githubusercontent.com/Teilsthebfdifan/Modhub-assets/main/Frozen%20Awakening%20(Theme).mp3", "FrozenAwakensBro)
+FrozenAwakening.Parent = game.SoundService
+FrozenAwakening.Looped = false
+FrozenAwakening:Play()
