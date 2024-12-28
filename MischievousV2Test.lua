@@ -1,3 +1,4 @@
+-- the script is open source , doors only supported
 _G.Uses = 414141414141
 _G.Range = 30
 _G.OnAnything = true
