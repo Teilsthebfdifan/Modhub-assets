@@ -6,7 +6,7 @@ _G.OnAnything = true
 _G.Fail = false
 _G.Variant = "Electric"
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
-wait(1.2)
+wait(0.4)
 
 local function setRedProperties(object)
     if object:IsA("BasePart") then
