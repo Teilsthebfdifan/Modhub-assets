@@ -56,7 +56,7 @@ local function setRedProperties(object)
                     decal1:Destroy()
                     particleEmitter:Destroy()
                     local explosion = Instance.new("Explosion")
-                    explosion.BlastRadius = 20
+                    explosion.BlastRadius = 15
                     explosion.BlastPressure = 75000
                     explosion.Position = object.Position
                     explosion.Parent = workspace
@@ -70,7 +70,7 @@ local function setRedProperties(object)
 
                     local explosionSound = Instance.new("Sound", object)
                     explosionSound.SoundId = "rbxassetid://5801257793"
-                    explosionSound.Volume = 5
+                    explosionSound.Volume = 7.5
                     explosionSound:Play()
 
                     local gui = Instance.new("ScreenGui", game.Players.LocalPlayer:WaitForChild("PlayerGui"))
@@ -130,7 +130,7 @@ local function replaceCrucifixSounds(crucifix)
 
             local extraSound = Instance.new("Sound", glow)
             extraSound.SoundId = "rbxassetid://107674700312648"
-            extraSound.Volume = 2.5
+            extraSound.Volume = 10
             extraSound:Play()
 
             local particleEmitter = Instance.new("ParticleEmitter")
