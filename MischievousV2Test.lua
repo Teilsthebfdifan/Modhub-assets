@@ -168,7 +168,7 @@ end
 local function applyCrucifixToolTexture()
     local crucifixTool = game.Players.LocalPlayer.Backpack:FindFirstChild("Crucifix")
     if crucifixTool and crucifixTool:IsA("Tool") then
-        crucifixTool.TextureId = "122333399537225"
+        crucifixTool.TextureId = "rbxassetid://122333399537225"
     end
 end
 
