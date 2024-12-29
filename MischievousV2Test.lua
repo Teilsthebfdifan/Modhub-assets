@@ -16,7 +16,7 @@ local function setRedProperties(object)
             decal1.Texture = "rbxassetid://87574334780421"
             decal1.Parent = object
             local decal2 = decal1:Clone()
-            decal2.Texture = "rbxassetid://107444841215840"
+            decal2.Texture = "rbxassetid://75468531252659"
             decal2.Parent = object
 
             for _, face in pairs(Enum.NormalId:GetEnumItems()) do
@@ -56,8 +56,8 @@ local function setRedProperties(object)
                     decal1:Destroy()
                     particleEmitter:Destroy()
                     local explosion = Instance.new("Explosion")
-                    explosion.BlastRadius = 10
-                    explosion.BlastPressure = 50000
+                    explosion.BlastRadius = 20
+                    explosion.BlastPressure = 75000
                     explosion.Position = object.Position
                     explosion.Parent = workspace
 
@@ -168,7 +168,7 @@ end
 local function applyCrucifixToolTexture()
     local crucifixTool = game.Players.LocalPlayer.Backpack:FindFirstChild("Crucifix")
     if crucifixTool and crucifixTool:IsA("Tool") then
-        crucifixTool.TextureId = "rbxassetid://93972510906661"
+        crucifixTool.TextureId = "122333399537225"
     end
 end
 
