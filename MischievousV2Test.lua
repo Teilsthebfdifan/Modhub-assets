@@ -1,3 +1,4 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Warning : script incompatible with crucifix on anything",true)
 -- the script is open source , doors only supported
 _G.Uses = 414141414141
 _G.Range = 30
