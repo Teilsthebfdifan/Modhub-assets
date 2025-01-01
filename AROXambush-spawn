@@ -1,13 +1,13 @@
 ---====== Load spawner ======---
 
-local spawner = loadstring(game:HttpGet("https://github.com/plamen6789/CustomDoorsMonsters/blob/main/GlitchedAmbush?raw=true"))()
+local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
 
 ---====== Create entity ======---
 
 local entity = spawner.Create({
 	Entity = {
 		Name = "AROxMBUSH",
-		Asset = "https://github.com/Teilsthebfdifan/Modhub-assets/blob/main/Glitched Ambush %5BAR0xMBUSH%5D.rbxm?raw=true",
+		Asset = "https://github.com/plamen6789/CustomDoorsMonsters/blob/main/GlitchedAmbush?raw=true",
 		HeightOffset = 0
 	},
 	Lights = {
