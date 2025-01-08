@@ -1,4 +1,6 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Warning : script incompatible with crucifix on anything",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("YOU SHOULD STOP CALLING THIS RED CRUCIFIX , ITS MISCHIEVOUS CRUCIFIX",true)
 -- the script is open source , doors only supported
 _G.Uses = 414141414141
 _G.Range = 30
