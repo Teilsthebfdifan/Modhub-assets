@@ -22,13 +22,13 @@ local entity = spawner.Create({
 		Enabled = false
 	},
 	CameraShake = {
-		Enabled = true,
+		Enabled = false,
 		Range = 100,
 		Values = {9, 5.7, 1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 135,
-		Delay = 3.8,
+		Speed = 69,
+		Delay = 0,
 		Reversed = false
 	},
 	Rebounding = {
@@ -128,14 +128,3 @@ end)
 ---====== Run entity ======---
 
 entity:Run()
-Wait(20)
----====== Load achievement giver ======---
-local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Idk-lol2/a-60aa/refs/heads/main/fix%20bage.txt"))()
-
----====== Display achievement ======---
-achievementGiver({
-    Title = "nothing",
-    Desc = "Eh, is this even a badge?",
-    Reason = "nothing",
-    Image = "rbxassetid://89847827161715"
-})
